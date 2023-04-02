@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         
-        <title>Jeffrey Liu &mdash; Booking app</title>
+        <title>Jeffrey Liu &mdash; Booking App</title>
     </head>
     <body>
         <div class="container">
@@ -42,11 +42,9 @@
                         <img src="img/user.jpg" alt="" class="user-nav__user-photo">
                         <span class="user-nav__user-name">Jeffrey Liu</span>
                     </div>
-                    
                 </nav>
-
-
             </header>
+
             <div class="content">
                 <nav class="sidebar">
                    <ul class="side-nav">
@@ -113,9 +111,7 @@
                             <svg class="overview__icon-star">
                                 <use xlink:href="img/sprite.svg#icon-star">
                             </svg>
-                            <svg class="overview__icon-star">
-                                <use xlink:href="img/sprite.svg#icon-star">
-                            </svg>
+
                             <svg class="overview__icon-star">
                                 <use xlink:href="img/sprite.svg#icon-star">
                             </svg>
@@ -163,11 +159,43 @@
                             </div>
                         </div>
                         <div class="user-reviews">
-                            User Reviews
+                            <figure class="review">
+                                <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Nick Smith</p>
+                                        <div class="review__user-date">Feb 23rd, 2023</div>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Mary Thomas</p>
+                                        <div class="review__user-date">Jan 17th, 2023</div>
+                                    </div>
+                                    <div class="review__rating">9.3</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline">Show all <span>&rarr;</span></button>
                         </div>
                     </div><!-- /details-->
 
-                    
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            Good news! We have 4 free rooms for your selected dates!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book Now</span>
+                            <span class="btn__invisible">Only 4 rooms left</span>
+                        </button>
+                    </div>
                 </main>
             </div>
         </div>
